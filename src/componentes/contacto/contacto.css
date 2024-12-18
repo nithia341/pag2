@@ -51,7 +51,7 @@
             
             cursor: pointer;
         }
-    @media only screen and (max-width: 600px) {
+    @media  (max-width: 600px) {
         .conteiner {
                 /* Hacer el contenedor más flexible en pantallas pequeñas */
                 background-size: cover;
