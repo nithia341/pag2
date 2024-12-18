@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/nithia341/pag2.git/static/css/main.a069bcc7.css",
-    "main.js": "/nithia341/pag2.git/static/js/main.7eb46ce4.js",
-    "static/media/calculadora.png": "/nithia341/pag2.git/static/media/calculadora.06bb464497162850a924.png",
-    "static/media/tareas.png": "/nithia341/pag2.git/static/media/tareas.6f5675927ec3fe794de7.png",
-    "static/media/33141.jpg": "/nithia341/pag2.git/static/media/33141.9ed92e7445039b049db2.jpg",
-    "static/media/3313.jpeg": "/nithia341/pag2.git/static/media/3313.c4f7c6e7d387f0afd376.jpeg",
-    "static/media/contador.png": "/nithia341/pag2.git/static/media/contador.94994ea500c35237049e.png",
-    "static/media/640.jpg": "/nithia341/pag2.git/static/media/640.dad6e73c2dc5677031f2.jpg",
-    "static/media/5252.jpg": "/nithia341/pag2.git/static/media/5252.6db44ec24e0b55fd1684.jpg",
-    "static/media/ibmA.jpg": "/nithia341/pag2.git/static/media/ibmA.21fd9279d55c328d4a4c.jpg",
-    "static/media/IBMC.jpg": "/nithia341/pag2.git/static/media/IBMC.53c5abf39e9ccb21444f.jpg",
-    "static/media/javascript.jpg": "/nithia341/pag2.git/static/media/javascript.ef67af6f8fc53c45af3f.jpg",
-    "static/media/G7.jpg": "/nithia341/pag2.git/static/media/G7.df9792d62a4ee1fb1751.jpg",
-    "static/media/python.jpg": "/nithia341/pag2.git/static/media/python.77de64f048ea2c33317e.jpg",
-    "static/media/tareasQ.png": "/nithia341/pag2.git/static/media/tareasQ.9de3e6d0ab19b86b1496.png",
-    "index.html": "/nithia341/pag2.git/index.html",
-    "main.a069bcc7.css.map": "/nithia341/pag2.git/static/css/main.a069bcc7.css.map",
-    "main.7eb46ce4.js.map": "/nithia341/pag2.git/static/js/main.7eb46ce4.js.map"
+    "main.css": "/pag2/static/css/main.30e69c6c.css",
+    "main.js": "/pag2/static/js/main.a92aaeed.js",
+    "static/media/calculadora.png": "/pag2/static/media/calculadora.06bb464497162850a924.png",
+    "static/media/tareas.png": "/pag2/static/media/tareas.6f5675927ec3fe794de7.png",
+    "static/media/33141.jpg": "/pag2/static/media/33141.9ed92e7445039b049db2.jpg",
+    "static/media/3313.jpeg": "/pag2/static/media/3313.c4f7c6e7d387f0afd376.jpeg",
+    "static/media/contador.png": "/pag2/static/media/contador.94994ea500c35237049e.png",
+    "static/media/640.jpg": "/pag2/static/media/640.dad6e73c2dc5677031f2.jpg",
+    "static/media/5252.jpg": "/pag2/static/media/5252.6db44ec24e0b55fd1684.jpg",
+    "static/media/ibmA.jpg": "/pag2/static/media/ibmA.21fd9279d55c328d4a4c.jpg",
+    "static/media/IBMC.jpg": "/pag2/static/media/IBMC.53c5abf39e9ccb21444f.jpg",
+    "static/media/javascript.jpg": "/pag2/static/media/javascript.ef67af6f8fc53c45af3f.jpg",
+    "static/media/G7.jpg": "/pag2/static/media/G7.df9792d62a4ee1fb1751.jpg",
+    "static/media/python.jpg": "/pag2/static/media/python.77de64f048ea2c33317e.jpg",
+    "static/media/tareasQ.png": "/pag2/static/media/tareasQ.9de3e6d0ab19b86b1496.png",
+    "index.html": "/pag2/index.html",
+    "main.30e69c6c.css.map": "/pag2/static/css/main.30e69c6c.css.map",
+    "main.a92aaeed.js.map": "/pag2/static/js/main.a92aaeed.js.map"
   },
   "entrypoints": [
-    "static/css/main.a069bcc7.css",
-    "static/js/main.7eb46ce4.js"
+    "static/css/main.30e69c6c.css",
+    "static/js/main.a92aaeed.js"
   ]
 }
