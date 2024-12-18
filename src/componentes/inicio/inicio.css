@@ -1,0 +1,112 @@
+.tarjetas-container {
+
+  display: flex; /* Aplica flexbox para poner las tarjetas en una línea horizontal */
+
+  background-image: url("..//../imagenes/33141.jpg");
+  background-size: cover;  /* la imagen cubra toda la pantalla */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita */
+  padding: 100px;
+ 
+}
+
+/* Contenedor principal de la tarjeta */
+  .tarjeta1 {
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección de los elementos a vertical */
+    align-items: center; /* Centra todo el contenido horizontalmente */
+    padding: 10px; /* Espaciado interno */
+    width: 500px; /* Ancho de la tarjeta */
+    text-align: center; /* Centra el texto */
+    margin-top: 40px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */
+ 
+  }
+
+    /* Contenedor de la imagen */
+    .imagen-container {
+      width: 200px; /* Tamaño de la imagen */
+      height: 200px; /* Tamaño de la imagen */
+      overflow: hidden; /* Para asegurar que la imagen no se desborde */
+      border-radius: 50%; /* Hacer la imagen circular */
+      margin-bottom: 60px; /* Espaciado entre la imagen y el texto */
+      border: 3px solid rgb(110, 181, 235);/*tamaño y color de borde */
+      box-shadow: 0 0 15px 5px rgba(100, 239, 197, 0.897);
+    }
+
+    /* Estilo de la imagen */
+    .imagen {
+      width: 100%; /* La imagen ocupará el 100% del contenedor */
+      height: 100%; /* La imagen ocupará el 100% del contenedor */
+      object-fit: cover; /* Asegura que la imagen cubra todo el área sin deformarse */
+      
+    }
+
+    /* Estilo del texto */
+    .contenido {
+      font-family: 'Playfair Display', serif; /* Aplica la fuente curveada */
+      color: rgb(11, 11, 11); /* Texto en color blanco */
+      font-weight: bold ; /* Texto en negrita */
+      font-size: 30px; /* Tamaño de la fuente más pequeño */
+    }
+
+  .tarjeta2 {
+    display: flex;
+    flex-direction: column; /* Disposición vertical */
+    align-items: center; /* Centra todo el contenido horizontalmente */
+    padding: 4px; /* Relleno interno */
+    width: 80%; /* Aseguramos que la tarjeta tenga el mismo ancho que la tarjeta 1 */
+    text-align: center; /* Centra el texto */
+    margin-top: 80px; /* Separación de 40px hacia abajo desde el elemento anterior (ej. nav) */  
+    border: 4px solid rgba(128, 238, 205, 0.897);/*tamaño y color de borde */
+    box-shadow: 0 0 15px 5px rgba(155, 230, 251, 0.897);
+    border-radius: 35px;
+  }
+
+  /* Modificado para subir el texto unos centímetros */
+  .texto {
+    width: 80%; /* El texto ocupa el 80% del espacio de la tarjeta */
+    padding-top: 100px; /* Ajuste para mover el texto hacia arriba */
+    padding-bottom: 50px; /* Ajuste para mantener el espaciado adecuado */
+    font-size: 20px; /* Tamaño del texto */
+    line-height: 1.5; /* Espaciado entre líneas */
+    color: #333; /* Color del texto */
+    font-weight: bold ; /* Texto en negrita */
+  }
+@media (max-width: 767px) {
+  .tarjetas-container {
+    flex-direction: column; /* Las tarjetas se apilan verticalmente */
+    width: 100%; /* Ocupan el 100% del ancho disponible */
+    padding: 10px; /* Espaciado adicional */
+  }
+
+  .tarjeta1, .tarjeta2 {
+    width: 90%; /* Las tarjetas ocupan el 90% del ancho */
+    margin-top: 20px; /* Reducimos el margen superior */
+  }
+
+  .imagen-container {
+    width: 150px; /* Reducimos el tamaño de la imagen */
+    height: 150px; /* Reducimos el tamaño de la imagen */
+  }
+
+  .contenido {
+    font-size: 20px; /* Reducimos el tamaño de la fuente */
+  }
+
+  .texto {
+    font-size: 14px; /* Ajustamos el tamaño del texto en móviles */
+    padding-top: 30px; /* Reducimos el padding superior */
+    padding-bottom: 30px; /* Reducimos el padding inferior */
+  }
+}
+@media (max-width: 480px) {
+  .contenido {
+    font-size: 18px; /* Reducir aún más el tamaño del texto en pantallas muy pequeñas */
+  }
+
+  .texto {
+    font-size: 12px; /* Ajuste más pequeño para pantallas muy pequeñas */
+    padding-top: 20px; /* Acomoda el texto de forma más compacta */
+    padding-bottom: 20px; /* Menos espacio en la parte inferior */
+  }
+}

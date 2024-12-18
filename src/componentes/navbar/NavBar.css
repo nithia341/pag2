@@ -1,0 +1,45 @@
+.navbar {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 2px solid rgb(249, 245, 228);
+    padding: 10px 20px;
+    
+    background-size: cover;  /* la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+ 
+}
+.logo-container {
+    width: 100px; /* Ajusta este valor según el tamaño deseado */
+    overflow: hidden;
+    border-radius: 80px ;
+    
+}
+
+.logo-image {
+    width: 50%; /* Hace que la imagen ocupe el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 80px ;
+    
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.menu-link {
+    text-decoration: none;
+    color: rgb(11, 11, 11); /* Color del texto */
+    font-size: 1.2rem;  /* Tamaño de la fuente */
+    font-style: italic; /* Pone la fuente en cursiva */
+    font-weight: bold; /* Hace la fuente más gruesa */
+    text-shadow: 1px 1px 2px rgb(244, 220, 170), 0 0 25px rgb(244, 240, 160), 0 0 5px rgb(195, 245, 231); /* Borde azul alrededor del texto */
+}
+.menu-link:hover {
+    text-decoration: underline;
+}

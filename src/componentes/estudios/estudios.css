@@ -1,0 +1,85 @@
+.i {
+    background-image: url("..//../imagenes/640.jpg");
+  background-size: cover;  /* la imagen cubra toda la pantalla */
+  background-position: center;  /* Centra la imagen */
+  background-repeat: no-repeat;  /* Evita que la imagen se repita */
+    width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
+    
+}
+
+.titulo {
+    padding-top: 20px; /* Añade un espacio de 20px en la parte superior del título */
+    padding-bottom: 10px; /* Añade un espacio de 10px en la parte inferior del título */
+    font-size: 48px; /* Establece el tamaño de la fuente en 48px */
+    line-height: 1.2; /* Controla la altura de línea (espaciado entre líneas) */
+    color: #0c0c0c; /* Establece el color del texto a un tono oscuro */
+    text-align: center; /* Centra el título horizontalmente */
+    
+
+}
+
+.tarjetas {
+    display: flex; /* Utiliza un modelo de diseño flexible (Flexbox) */
+    flex-direction: column; /* Organiza las tarjetas en una columna */
+    gap:50px; /* Agrega un espacio de 150px entre cada tarjeta */
+    align-items: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+    width: 50%; /* Establece el 50% del ancho del contenedor para las tarjetas */
+    margin-left: 400px; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
+    border-radius: 50px;
+}
+
+.card {
+    width: 100%; /* Hace que cada tarjeta ocupe el 100% del ancho de su contenedor */
+   
+    margin: 0 auto; /* Centra las tarjetas dentro del contenedor */
+    
+}
+
+.img {
+    width: 80%; /* La imagen ocupa el 80% del ancho del contenedor, extendiéndola un poco más */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el área sin deformarse */
+    height: 300px; /* Establece una altura fija de 600px para las imágenes */
+    object-position: center; /* Centra la imagen dentro del contenedor */
+   
+}
+
+.scroll-to-top-button {
+    position: fixed; /* Posiciona el botón de forma fija en la pantalla */
+    bottom: 30px; /* Establece que el botón esté a 30px del borde inferior */
+    right: 30px; /* Establece que el botón esté a 30px del borde derecho */
+    color: rgb(9, 9, 9); /* Establece el color del icono del botón a un tono oscuro */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 50%; /* Hace que el botón sea circular */
+    padding: 8px; /* Añade un relleno de 8px dentro del botón */
+    font-size: 4px; /* Establece un tamaño de fuente muy pequeño para el icono */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón */
+    box-shadow: 6px 8px 8px rgba(95, 95, 95, 0.2); /* Añade una sombra sutil al botón */
+}
+
+.scroll-to-top-button:hover {
+    background-color: #e5e5d6; /* Cambia el color de fondo del botón cuando se pasa el ratón sobre él */
+}
+
+
+/* Media Queries para dispositivos móviles y pantallas más pequeñas */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 36px; /* Ajusta el tamaño del texto en pantallas pequeñas */
+    }
+
+    .tarjetas {
+        width: 80%; /* Las tarjetas ocupan más espacio en pantallas pequeñas */
+        margin-left: 40px; /* Elimina el margen izquierdo en pantallas pequeñas */
+    }
+
+    .img {
+        width: 110%; /* Las imágenes ocupan el 100% del ancho disponible */
+        height: 250px; /* Ajusta la altura de las imágenes en pantallas pequeñas */
+    }
+
+    .scroll-to-top-button {
+        font-size: 12px; /* Aumenta el tamaño de la fuente en pantallas pequeñas */
+        padding: 12px; /* Aumenta el relleno del botón en pantallas pequeñas */
+    }
+}
+

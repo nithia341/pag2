@@ -1,0 +1,87 @@
+.conteiner {
+    background-image: url("..//../imagenes/3313.jpeg");
+    background-size: cover;  /* la imagen cubra toda la pantalla */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que la imagen se repita */
+  
+    width: 100%; /* Hace que el contenedor ocupe el 100% del ancho disponible */
+    height: 100vh; /* Hace que el contenedor ocupe el 100% de la altura de la pantalla */
+    display: flex; /* Utiliza flexbox para centrar la tarjeta */
+    align-items: center; /* Centra la tarjeta verticalmente */
+}
+    .tarjetaA{
+        display: flex; /* Utiliza un modelo de diseño flexible (Flexbox) */
+        flex-direction: column; /* Organiza las tarjetas en una columna */
+        align-items: center; /* Centra las tarjetas horizontalmente dentro del contenedor */
+        width: 50%; /* Establece el 50% del ancho del contenedor para las tarjetas */
+        margin-left:35%; /* Aleja las tarjetas del borde izquierdo con un margen de 300px */
+       border-radius: 150px;
+        background-color: rgba(72, 189, 170, 0.5); /* Rojo con 50% de transparencia */
+        box-shadow: 0 0 15px 15px rgba(129, 240, 244, 0.897);
+          
+        padding: 10px; /* Espaciado interno */
+        width: 400px; /* Ancho de la tarjeta */
+        text-align: center; /* Centra el texto */
+        margin-top: 10px; /* Separación  hacia abajo desde el elemento anterior (ej. nav) */
+        
+    }
+        .texto{
+            width: 80%; /* El texto ocupa el 80% del espacio de la tarjeta */
+            padding-top: 0; /* Ajuste para mover el texto hacia arriba */
+            padding-bottom: 100px; /* Ajuste para mantener el espaciado adecuado */
+            font-size: 18px; /* Tamaño del texto */
+            line-height: 1.5; /* Espaciado entre líneas */
+            color: #333; /* Color del texto */
+        }
+        .icons {
+            display: flex; /* Utiliza flexbox para alinear los iconos en línea (horizontalmente) */
+            justify-content: center; /* Centra los iconos horizontalmente */
+            gap: 40px; /* Espacio entre los iconos */
+           
+    
+        }
+        .git,.linke {
+            width: 50px; /* Ancho fijo para los iconos */
+            height: 50px; /* Alto fijo para los iconos */
+            border-radius: 50%; /* Bordes redondeados */
+            border: 2.5px solid #eee7e1; /* Borde del color de fondo */
+            display: flex; /* Utiliza flexbox para centrar el contenido dentro de los iconos */
+            align-items: center; /* Centra el contenido verticalmente */
+            justify-content: center; /* Centra el contenido horizontalmente */
+            
+            cursor: pointer;
+        }
+    @media only screen and (max-width: 600px) {
+        .conteiner {
+                /* Hacer el contenedor más flexible en pantallas pequeñas */
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                height: auto; /* La altura se ajusta automáticamente */
+                padding: 90px; /* Añadir un poco de relleno */
+        }
+        
+        .tarjetaA {
+                /* Ajuste de la tarjeta en pantallas pequeñas */
+                width: 60%; /* Hacer la tarjeta más estrecha */
+                margin-left: 18%; /* Reducir el margen izquierdo */
+                margin-top: 20px; /* Añadir un poco de separación arriba */
+                border-radius: 50px; /* Reducir el radio del borde para pantallas pequeñas */
+         }
+        
+        .texto {
+                font-size: 16px; /* Reducir el tamaño del texto para pantallas pequeñas */
+                padding-bottom: 50px; /* Ajuste del espaciado */
+                line-height: 1; /* Espaciado entre líneas */
+        }
+        
+        .icons {
+                gap: 20px; /* Reducir el espacio entre los iconos */
+        }
+        
+        .git, .linke {
+                width: 40px; /* Reducir el tamaño de los iconos */
+                height: 40px; /* Reducir el tamaño de los iconos */
+        }
+    }
+        

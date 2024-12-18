@@ -1,0 +1,91 @@
+/* Fondo general */
+.fondo {
+    background-color: #E6DACE; /* Color café claro para el fondo */
+    width: 100%;
+    height: 100%; /* Asegura que el fondo cubra toda la pantalla */
+    display: flex;
+    flex-direction: column; /* Apilamos las filas verticalmente */
+    align-items: center; /* Centrado horizontal */
+    justify-content: flex-start; /* Alineación en la parte superior, después del navbar */
+    padding-top: 70px; /* Espacio para el navbar */
+}
+
+/* Contenedor de las tarjetas */
+.con-tar {
+    display: flex;
+    justify-content: space-between; /* Distribuye las tarjetas horizontalmente */
+    align-items: flex-start; /* Alineación vertical para las tarjetas */
+    width: 90%; /* Ajusta el ancho para que las tarjetas no ocupen todo el espacio */
+    margin-bottom: 60px; /* Espacio entre las filas */
+}
+
+/* Tarjetas individuales */
+.tar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 45%; /* Ajusta el ancho para que las tarjetas se vean una al lado de la otra */
+    margin: 10px 0; /* Añade un margen para separarlas de los bordes */
+    padding-top: 20px; /* Añade espacio en la parte superior del texto */
+}
+
+/* Contenedor de la segunda fila de tarjetas */
+.con-tar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%; /* Ajusta el ancho para que la segunda tarjeta no ocupe más espacio que la primera */
+    margin-top: 30px; /* Añade un margen superior para bajar la posición de esta fila */
+  
+}
+
+/* Imagen de las tarjetas */
+.tar-img {
+    max-width: 100%; /* La imagen se adapta al contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+}
+
+/* Imagen pequeña (contador) */
+.tar-img-small {
+    max-width: 15%; /* Hace que la imagen 'contadorQ' sea más pequeña */
+    height: auto;
+    margin-bottom: 8px; /* Da un poco de espacio entre la imagen y el texto */
+}
+@media (max-width: 480px) {
+    .tar {
+        width: 95%; /* Las tarjetas ocupan casi todo el ancho de la pantalla */
+        padding-top: 10px; /* Reducimos el espacio superior para evitar que las tarjetas se vean tan separadas */
+    }
+
+    .tar-img-small {
+        max-width: 25%; /* Las imágenes pequeñas se hacen un poco más grandes en pantallas muy pequeñas */
+    }
+
+    .con-tar2 {
+        width: 90%; /* Asegura que la segunda fila no quede demasiado estrecha */
+    }
+}
+@media (max-width: 1024px) {
+    .con-tar {
+        flex-direction: column; /* Cambia la distribución de las tarjetas para apilarse verticalmente */
+        align-items: center; /* Centra las tarjetas horizontalmente */
+        width: 90%; /* Ajusta el ancho para que las tarjetas no ocupen todo el espacio */
+    }
+
+    .tar {
+        width: 80%; /* Las tarjetas ocupan más espacio horizontalmente en pantallas medianas */
+        margin-bottom: 30px; /* Reducimos el espacio entre tarjetas */
+        padding-top: 15px; /* Menos espacio superior que en pantallas pequeñas */
+    }
+
+    .con-tar2 {
+        width: 80%; /* Reduce el ancho de la segunda fila para que sea consistente */
+        margin-top: 20px; /* Un poco menos de margen superior */
+    }
+
+    .tar-img-small {
+        max-width: 20%; /* Las imágenes pequeñas se ajustan un poco más */
+    }
+}
