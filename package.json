@@ -2,7 +2,7 @@
   "name": "pag2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/nithia341/pag2.git",
+  "homepage": "https://nithia341.github.io/pag2/",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@emotion/styled": "^11.13.5",

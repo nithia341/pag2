@@ -14,7 +14,7 @@ function App() {
         <Navbar />
          
         <Routes>
-          <Route path="pag2" element={<Tarjeta />} /> {/* Pantalla principal con la tarjeta */}
+          <Route path="/pag2" element={<Tarjeta />} /> {/* Pantalla principal con la tarjeta */}
           <Route path="/inicio" element={<Tarjeta />} /> {/* Página "Inicio" */}
           <Route path="/inicio/Cursos" element={<Estudios />} /> {/* Página "Estudios" */}
           <Route path="/inicio/Proyectos" element={<Proyecto />} /> {/* Página "Proyectos" */}
