@@ -59,13 +59,6 @@
         padding-top: 10px; /* Reducimos el espacio superior para evitar que las tarjetas se vean tan separadas */
     }
 
-    .tar-img-small {
-        max-width: 25%; /* Las imágenes pequeñas se hacen un poco más grandes en pantallas muy pequeñas */
-    }
-
-    .con-tar2 {
-        width: 90%; /* Asegura que la segunda fila no quede demasiado estrecha */
-    }
 }
 @media (max-width: 1024px) {
     .con-tar {
