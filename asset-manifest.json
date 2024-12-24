@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/pag2/static/css/main.103863b1.css",
-    "main.js": "/pag2/static/js/main.a92aaeed.js",
+    "main.css": "/pag2/static/css/main.0641c068.css",
+    "main.js": "/pag2/static/js/main.9e6142e5.js",
     "static/media/calculadora.png": "/pag2/static/media/calculadora.06bb464497162850a924.png",
     "static/media/tareas.png": "/pag2/static/media/tareas.6f5675927ec3fe794de7.png",
     "static/media/33141.jpg": "/pag2/static/media/33141.9ed92e7445039b049db2.jpg",
     "static/media/3313.jpeg": "/pag2/static/media/3313.c4f7c6e7d387f0afd376.jpeg",
+    "static/media/ibmA.jpg": "/pag2/static/media/ibmA.b1e85d00b8d647daffe9.jpg",
+    "static/media/javascript.jpg": "/pag2/static/media/javascript.113deaaccf4d55919802.jpg",
+    "static/media/IBMC.jpg": "/pag2/static/media/IBMC.a5b31b13a5a50460e07b.jpg",
     "static/media/contador.png": "/pag2/static/media/contador.94994ea500c35237049e.png",
     "static/media/640.jpg": "/pag2/static/media/640.dad6e73c2dc5677031f2.jpg",
+    "static/media/G7.jpg": "/pag2/static/media/G7.e9ed44bfb24bbc1e9e9f.jpg",
     "static/media/5252.jpg": "/pag2/static/media/5252.6db44ec24e0b55fd1684.jpg",
-    "static/media/ibmA.jpg": "/pag2/static/media/ibmA.21fd9279d55c328d4a4c.jpg",
-    "static/media/IBMC.jpg": "/pag2/static/media/IBMC.53c5abf39e9ccb21444f.jpg",
-    "static/media/javascript.jpg": "/pag2/static/media/javascript.ef67af6f8fc53c45af3f.jpg",
-    "static/media/G7.jpg": "/pag2/static/media/G7.df9792d62a4ee1fb1751.jpg",
-    "static/media/python.jpg": "/pag2/static/media/python.77de64f048ea2c33317e.jpg",
+    "static/media/python.jpg": "/pag2/static/media/python.fbe02649b5dc2cc883a5.jpg",
     "static/media/tareasQ.png": "/pag2/static/media/tareasQ.9de3e6d0ab19b86b1496.png",
+    "static/media/slick.svg": "/pag2/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pag2/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pag2/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pag2/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/pag2/index.html",
-    "main.103863b1.css.map": "/pag2/static/css/main.103863b1.css.map",
-    "main.a92aaeed.js.map": "/pag2/static/js/main.a92aaeed.js.map"
+    "main.0641c068.css.map": "/pag2/static/css/main.0641c068.css.map",
+    "main.9e6142e5.js.map": "/pag2/static/js/main.9e6142e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.103863b1.css",
-    "static/js/main.a92aaeed.js"
+    "static/css/main.0641c068.css",
+    "static/js/main.9e6142e5.js"
   ]
 }
