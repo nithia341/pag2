@@ -76,12 +76,11 @@
     border-radius: 8px;
     border: 2px solid rgba(13, 97, 165, 0.897);/*tamaño y color de borde */
     box-shadow: 0 0 15px 5px rgba(31, 246, 124, 0.897);
-    width: 15%;
+    width: 25%;
     cursor: pointer;
   
-    
-
   }
+ 
 @media (max-width: 767px) {
   .tarjetas-container {
     flex-direction: column; /* Las tarjetas se apilan verticalmente */
